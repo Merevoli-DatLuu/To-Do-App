@@ -40,5 +40,5 @@
 + https://loda.me/
 + https://viettuts.vn/ 
 + https://docs.spring.io/spring-framework/docs/5.2.0.RELEASE/spring-framework-reference/index.html (Document)
-+ [Spring in Action, 5th Edition](./Spring in Action, 5th Edition.pdf)
++ Spring in Action, 5th Edition
 
