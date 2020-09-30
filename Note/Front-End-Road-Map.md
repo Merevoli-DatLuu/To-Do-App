@@ -33,7 +33,7 @@
     +	OOP (inheritance), class keyword.
     +	call(), apply(), bind().
     +	setTimeout() and setInterval().
-    +	Prototype (__proto__).
+    +	Prototype (__ __proto__ __).
     
   + **Asynchronous**:
     +	Callback, callback functions.
