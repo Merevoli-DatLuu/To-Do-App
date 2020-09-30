@@ -31,7 +31,6 @@
 - Spring 
 	+ Spring MVC
 	+ Spring Boot
-
 - Hibernate
 - Struts 2
 
