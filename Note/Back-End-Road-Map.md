@@ -28,11 +28,12 @@
 - JSP
 - Java Servler
 - Java JDBC :  học cách hoạt động của nó, flow nó chạy như nào khi thao tác dữ liệu cũng như lấy dữ liệu lên. Tìm hiểu về PreparedStatement, ResultSet, commit, rollback, transaction trong JDBC là như thế nào
-- Hibernate
-- Struts 2
 - Spring 
 	+ Spring MVC
 	+ Spring Boot
+
+- Hibernate
+- Struts 2
 
 **Source** :
 + https://laptrinhjavaweb.com/ (Chứa lộ trình và khóa học)
