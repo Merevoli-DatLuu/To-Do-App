@@ -36,7 +36,7 @@
     +	setTimeout() and setInterval().
     +	Prototype (__ __proto__ __).
     
-  + **Asynchronous**:
+  + **Asynchronous** (lưu ý học phần này):
     +	Callback, callback functions.
     +	HTTP request.
     +	Promises.
@@ -46,14 +46,14 @@
   +	JSX
   +	Rendering elements
   +	Components and Props
-  +	State and Lifecycle
-  +	Handling events
+  +	**State and Lifecycle**
+  +	**Handling events**
   +	Conditional rendering
   +	Lists and key
   +	Form
-  +	Data flow between components
+  +	**Data flow between components**
   +	Router
-  +	Redux
+  +	**Redux**
   +	Connect API
 
 ** **Resources**:
