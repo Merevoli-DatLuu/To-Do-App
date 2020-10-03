@@ -32,7 +32,7 @@
 	+ Spring MVC
 	+ Spring Boot
 - Hibernate
-- Struts 2
+- Struts 2 
 
 **Source** :
 + https://laptrinhjavaweb.com/ (Chứa lộ trình và khóa học)
