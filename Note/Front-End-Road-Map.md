@@ -54,7 +54,7 @@
   +	**Data flow between components**
   +	Router
   +	**Redux**
-  +	Connect API
+  +	Connect API 
 
 ** **Resources**:
   +	HTML5, CSS3, JavaScript basic: [W3Schools](https://www.w3schools.com/).
