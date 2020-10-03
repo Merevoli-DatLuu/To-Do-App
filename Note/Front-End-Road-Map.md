@@ -24,12 +24,13 @@
     
   + **ES6**:
     +	let and const keyword.
-    +	for (... in ...) and for (... of ...).
+    +	**for (... in ...) and for (... of ...)**.
     +	Scope and closure.
     +	Template strings.
-    +	Spread syntax and rest parameters.
+    +	**Spread syntax and rest parameters**.
     +	Destructuring.
-    +	Arrow functions.
+    + High order methods in array (**map, reduce**)
+    +	**Arrow functions**.
     +	OOP (inheritance), class keyword.
     +	call(), apply(), bind().
     +	setTimeout() and setInterval().
