@@ -1,0 +1,146 @@
+Table User{
+  user_id varchar [pk] // US00001
+  user_name varchar
+  user_email varchar
+  user_login_type int // 0: user/pass | 1 : Google acc
+  user_username varchar
+  user_passhash varchar
+  user_token varchar
+  user_created_date datetime
+  region_id varchar
+}
+
+Table RegionTimezone{
+  region_id varchar [pk] // RT00001
+  region_name varchar
+  region_timezone int
+}
+
+Table Project{
+  project_id varchar [pk] //PJ00001
+  user_id varchar 
+  project_name varchar
+  project_created_date datetime
+  project_deleted_date datetime // Optional
+  project_status_id boolean
+}
+
+Table Section{
+  section_id varchar [pk] //SS00001
+  project_id varchar
+  section_name varchar
+  section_create_date datetime
+  section_deleted_date datetime
+  section_status_id boolean 
+}
+
+Table Task{
+  task_id varchar [pk]  //TK00001
+  section_id varchar // if SS00001 : null 
+  task_name varchar
+  task_note varchar
+  priority_id varchar
+  tag_id varchar
+  task_begin_date datetime
+  task_end_date datetime
+  task_create_date datetime
+  task_deleted_date datetime
+  task_favorite_status boolean
+  progress_id varchar 
+  repeater_id varchar
+  task_late boolean
+  task_status_id boolean
+}
+
+Table Priorty{
+  priority_id varchar [pk] // PY00001
+  priority_name varchar
+}
+
+Table Tag{
+  tag_id varchar [pk] // TG00001
+  tag_name varchar
+}
+
+Table Repeater{
+  repeater_id varchar [pk] // RP00001
+  repeater_type int 
+  repeater_period_of_time int // Don Vi : Ngay
+  repeater_point_of_time datetime
+  repeater_loop_time int // 1 : point_of_time | 100000 : repeater_period_of_time
+}
+
+Table Progress{
+  progress_id varchar [pk] //PG00001
+  progress_name varchar 
+}
+
+Table Subtask {
+  subtask_id varchar [pk] // ST00001
+  task_id varchar
+  subtask_name varchar
+}
+
+Table Pomodoro{
+  pomodor_id varchar [pk] //PM00001
+  task_id varchar
+  pomodoro_period_of_time int // Don Vi : second 
+  pomodoro_begin_time datetime
+}
+
+Table NotificationUser{
+  notification_user_id varchar [pk] //NF00001 ADD
+  user_id varchar
+  notification_setting_type_id varchar
+  notification_user_name varchar
+  notification_user_created_date datetime // ADD
+  notification_user_is_seen boolbean // ADD
+}
+
+
+Table NotificationSetting{
+  notification_setting_id varchar [pk] // NS000001 ADD
+  user_id varchar
+  notification_setting_type_id varchar
+}
+
+Table NotificationType{
+  notification_type_id varchar [pk] // NA00001
+  notification_type_name varchar
+}
+
+Table NotificationSettingType{
+  notification_setting_type_id varchar [pk] // NT00001
+  notification_type_id varchar
+  notification_setting_type_name varchar
+}
+
+
+Table SendingEmailSetting{
+  sending_email_setting_id varchar [pk] // SE00001
+  user_id varchar
+  sending_email_setting_type_id varchar
+}
+
+Table SendingEmailSettingType{
+  sending_email_setting_type_id varchar [pk] //ST00001
+  sending_email_setting_type_name varchar
+}
+
+Ref: User.region_id > RegionTimezone.region_id
+Ref: Project.user_id > User.user_id
+Ref: Section.project_id > Project.project_id
+Ref: Task.section_id > Section.section_id
+Ref: Task.priority_id > Priorty.priority_id
+Ref: Task.tag_id > Tag.tag_id
+Ref: Task.progress_id > Progress.progress_id
+Ref: Task.repeater_id > Repeater.repeater_id
+Ref: Subtask.task_id > Task.task_id
+Ref: Pomodoro.task_id > Task.task_id
+Ref: NotificationUser.user_id > User.user_id
+Ref: NotificationSetting.user_id > User.user_id
+Ref: NotificationUser.notification_setting_type_id > NotificationSettingType.notification_setting_type_id
+Ref: NotificationSetting.notification_setting_type_id > NotificationSettingType.notification_setting_type_id
+Ref: NotificationSettingType.notification_type_id > NotificationType.notification_type_id
+Ref: SendingEmailSetting.user_id > User.user_id
+Ref: SendingEmailSetting.sending_email_setting_type_id > SendingEmailSettingType.sending_email_setting_type_id
