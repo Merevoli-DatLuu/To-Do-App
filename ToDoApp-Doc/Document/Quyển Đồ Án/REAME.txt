@@ -1,0 +1,52 @@
+1) Giới thiệu
+	1.1) Mục đích
+		Mục này giới thiệu mục đích của tài liệu yêu cầu. Thường chỉ đơn giản là định nghĩa "đây là tài liệu yêu cầu về phần mềm XYZ".
+	1.2) Phạm vi
+		Nên phạm vi đề cập của tài liệu yêu cầu
+	1.3) Định nghĩa
+		Định nghĩa các khái niệm, các từ viết tắt, các chuẩn được sử dụng trong tài liệu yêu cầu.
+	1.4) Tài liệu tham khảo
+		Nêu danh mục các tài liệu tham khảo dùng để tạo ra bản đặc tả yêu cầu
+	1.5) Mô tả chung về tài liệu
+		Mô tả khái quát cấu trúc tài liệu, gồm có các chương, mục, phụ lục chính nào
+2) Mô tả chung
+	2.1) Tổng quan về sản phẩm
+		Mô tả khái quát về sản phẩm
+	2.2) Chức năng sản phẩm
+		Khái quát về chức năng sản phẩm
+	2.3) Đối tượng người dùng
+		Mô tả về đối tượng người dùng
+	2.4) Ràng buộc tổng thể
+		Khái quát về các ràng buộc của phần mềm: ràng buộc phần cứng, môi trường, sử dụng, yêu cầu kết nối vơi các hệ thống khác
+	2.5) Giả thiết và sự lệ thuộc
+		Mô tả các giả thiết khi ấp dụng tài liệu: vó dụ như tên phần cứng, phần mềm, hệ điều hành cụ thể.
+3) Yêu cầu chi tiết
+	Mô tả các yêu cầu
+3.1) Yêu cầu chức năng
+	Mô tả chi tiết về các yêu cầu chức năng
+3.1.1 Yêu cầu chức năng 1
+3.1.1.1 Giới thiệu
+3.1.1.2 Dữ liệu đầu vào
+3.1.1.3 Xử lý
+3.1.1.4 Kết quả
+3.1.2 Yêu cầu chức năng 2
+...
+3.1.n Yêu cầu chức năng n
+3.2) Yêu càu giao diện ngoài
+	Mô tả các giao diện của phần mềm với môi trường bên ngoài
+3.2.1) Giao diện người dùng
+3.2.2) Giao diện phần cứng
+3.2.3) Giao diện phần mềm
+3.2.4) Giao diện truyền thông
+3.3) Yêu cầu hiệu suất
+	Mô tả về hiệu suất, ví dụ như thời gian phản hồi với sự kiện, số giao dịch được thực hiện/giây
+3.4) Ràng buộc thiết kế
+	Mô tả các ràng buộc thiết kế, các ràng buộc về ngôn ngữ, về công nghệ, về cơ sở dữ liệu và về chuẩn giao tiếp
+3.5) Thuộc tính
+	Mô tả các thuộc tính của phần mềm
+3.5.1) Tính bảo mật, an toàn và khả năng phục hồi
+	Mức độ bảo mật dữ liệu, cách thức truy cập vào hệ thống. Độ an toàn của hệ thống đối với các trường hợp bất thường như mất điện... Khả năng hồi phục của hệ thống sau khi gặp sự cố
+3.5.2) Tính bảo trì
+	Các chức năng, giao diện đòi hỏi phải dễ sửa đổi (dễ bảo trì)
+3.6) Các yêu cầu khác
+	Các yêu cầu khác liên quan đến sản phẩm
