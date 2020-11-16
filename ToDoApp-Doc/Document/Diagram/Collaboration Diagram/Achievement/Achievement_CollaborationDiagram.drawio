@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2020-11-14T08:27:24.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="EClkq8WEbtBrjmLEGDac" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-11-16T08:51:53.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="90kUbEQ5JEMSos58EvI6" version="13.6.5">
     <diagram id="XJ9SEUUzNbHEPwtcxcTW" name="Page-1">
         <mxGraphModel dx="990" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
@@ -21,19 +21,6 @@
                         <mxPoint x="190" y="180" as="sourcePoint"/>
                         <mxPoint x="230" y="180" as="targetPoint"/>
                         <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="26" value="" style="endArrow=none;html=1;" parent="1" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="980" y="160" as="sourcePoint"/>
-                        <mxPoint x="1020" y="160" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="980" y="130"/>
-                            <mxPoint x="980" y="120"/>
-                            <mxPoint x="1000" y="110"/>
-                            <mxPoint x="1020" y="120"/>
-                            <mxPoint x="1020" y="130"/>
-                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="30" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="1" vertex="1">
@@ -82,7 +69,7 @@
                     <mxGeometry x="130" y="240" width="180" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;4 : kiemTraDanhSach()&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;10 : kiemTraThongTin()&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="960" y="70" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="940" y="70" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" parent="1" vertex="1">
                     <mxGeometry x="360" y="350" width="640" height="20" as="geometry"/>
@@ -127,6 +114,17 @@
                         <mxPoint x="560" y="230" as="sourcePoint"/>
                         <mxPoint x="520" y="230" as="targetPoint"/>
                         <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=20;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="980" y="160" as="sourcePoint"/>
+                        <mxPoint x="1020" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="980" y="130"/>
+                            <mxPoint x="1000" y="110"/>
+                            <mxPoint x="1020" y="130"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
             </root>
