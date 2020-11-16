@@ -1,4 +1,4 @@
-<mxfile host="65bd71144e" modified="2020-11-16T08:51:56.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="2ZO2hQbDDRI20d5MX91-" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-11-16T16:02:29.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="9esD_J21refKl1mVcSOs" version="13.6.5">
     <diagram id="wx6fKO2QuID2BFAPq64R" name="Page-1">
         <mxGraphModel dx="990" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
@@ -18,8 +18,8 @@
                 </mxCell>
                 <mxCell id="8" value="" style="html=1;verticalAlign=bottom;endArrow=block;startSize=7;endSize=20;endFill=1;sourcePerimeterSpacing=2;" parent="1" edge="1">
                     <mxGeometry x="0.25" y="70" width="80" relative="1" as="geometry">
-                        <mxPoint x="190" y="180" as="sourcePoint"/>
-                        <mxPoint x="230" y="180" as="targetPoint"/>
+                        <mxPoint x="180" y="180" as="sourcePoint"/>
+                        <mxPoint x="220" y="180" as="targetPoint"/>
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -31,8 +31,8 @@
                 </mxCell>
                 <mxCell id="13" value="" style="html=1;verticalAlign=bottom;endArrow=block;startSize=7;endSize=20;endFill=1;sourcePerimeterSpacing=2;" parent="1" edge="1">
                     <mxGeometry x="0.25" y="70" width="80" relative="1" as="geometry">
-                        <mxPoint x="530" y="180" as="sourcePoint"/>
-                        <mxPoint x="570" y="180" as="targetPoint"/>
+                        <mxPoint x="500" y="180" as="sourcePoint"/>
+                        <mxPoint x="540" y="180" as="targetPoint"/>
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -41,15 +41,15 @@
                 </mxCell>
                 <mxCell id="16" value="" style="html=1;verticalAlign=bottom;endArrow=block;startSize=7;endSize=20;endFill=1;sourcePerimeterSpacing=2;" parent="1" edge="1">
                     <mxGeometry x="0.25" y="70" width="80" relative="1" as="geometry">
-                        <mxPoint x="850" y="180" as="sourcePoint"/>
-                        <mxPoint x="890" y="180" as="targetPoint"/>
+                        <mxPoint x="830" y="180" as="sourcePoint"/>
+                        <mxPoint x="870" y="180" as="targetPoint"/>
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="18" value="" style="html=1;verticalAlign=bottom;endArrow=block;startSize=7;endSize=20;endFill=1;sourcePerimeterSpacing=2;" parent="1" edge="1">
                     <mxGeometry x="0.25" y="70" width="80" relative="1" as="geometry">
-                        <mxPoint x="225" y="230" as="sourcePoint"/>
-                        <mxPoint x="185" y="230" as="targetPoint"/>
+                        <mxPoint x="220" y="230" as="sourcePoint"/>
+                        <mxPoint x="180" y="230" as="targetPoint"/>
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
@@ -91,12 +91,12 @@
                     <mxGeometry x="740" y="50" width="220" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;6 : kiemTraDanhSachThongKe()&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;24 : kiemTraThongKeAchievement()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;29 : kiemTraThongKePomodoro()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;34 : kiemTraThongKeThoiGianSuDung()&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="40" width="200" height="70" as="geometry"/>
+                    <mxGeometry x="980" y="40" width="200" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;7 : traVeThongKeTask()&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;12 : traVeThongKeCompletedTask()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;16 : traVeThongKeDeadlineTask()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;20 : traVeThongKeTagTask()&lt;br&gt;&lt;/span&gt;25 : traVeThongKeAchievement()&lt;br&gt;&lt;span&gt;30 : traVeThongKePomodoro()&lt;br&gt;&lt;/span&gt;&lt;span&gt;35 : traVeThongKeThoiGianSuDung()&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="600" y="290" width="210" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=20;" edge="1" parent="1">
+                <mxCell id="37" value="" style="html=1;verticalAlign=bottom;endArrow=block;endSize=20;" parent="1" edge="1">
                     <mxGeometry width="80" relative="1" as="geometry">
                         <mxPoint x="980" y="160" as="sourcePoint"/>
                         <mxPoint x="1020" y="160" as="targetPoint"/>
