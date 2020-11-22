@@ -1,10 +1,10 @@
-<mxfile host="65bd71144e" modified="2020-11-21T01:37:03.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="sN8gdQ6xrBwby2-ZOXuu" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-11-21T08:02:52.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="kB9LihvOl-K2P3s7bWA4" version="13.6.5">
     <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
         <mxGraphModel dx="990" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="249" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="249" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="720" y="80" width="100" height="1840" as="geometry"/>
                 </mxCell>
                 <mxCell id="278" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="249" vertex="1">
@@ -34,7 +34,7 @@
                 <mxCell id="259" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="251" vertex="1">
                     <mxGeometry x="5" y="80" width="10" height="1720" as="geometry"/>
                 </mxCell>
-                <mxCell id="257" value=":StatisticsUI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="257" value="Giao diện Statistics : UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="240" y="80" width="100" height="1840" as="geometry"/>
                 </mxCell>
                 <mxCell id="262" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="257" vertex="1">
@@ -61,11 +61,8 @@
                 <mxCell id="473" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="257" vertex="1">
                     <mxGeometry x="45" y="1600" width="10" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="258" value="&lt;span&gt;:Statistics Controller&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                <mxCell id="258" value="Statistics&lt;span&gt;&amp;nbsp;: Statistics Controller&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="480" y="81" width="100" height="1840" as="geometry"/>
-                </mxCell>
-                <mxCell id="276" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;4 : truyXuatDanhSachTask()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="258" vertex="1">
-                    <mxGeometry x="-140" y="180" width="200" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="277" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="258" vertex="1">
                     <mxGeometry x="45" y="200" width="10" height="120" as="geometry"/>
@@ -94,17 +91,17 @@
                 <mxCell id="266" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22html%3D1%3Bpoints%3D%5B%5D%3Bperimeter%3DorthogonalPerimeter%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2295%22%20y%3D%22160%22%20width%3D%2210%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="130" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="267" value="1 : chonMoreActions()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="140" width="130" height="20" as="geometry"/>
+                <mxCell id="267" value="1 : Nhấn vào &quot;More Actions&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="140" width="170" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="270" value="2 : hienThiTuyChon()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="180" width="130" height="20" as="geometry"/>
+                <mxCell id="270" value="1.1 : Hiển thị tùy chọn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="180" width="130" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="272" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22luaChonCuaNguoiDung()%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22115%22%20y%3D%22340%22%20width%3D%22150%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="190" y="220" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="273" value="3 : chonAllTaskStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="220" width="150" height="20" as="geometry"/>
+                <mxCell id="273" value="2 : Nhấn vào &quot;All Task Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="220" width="190" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="275" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.06;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.98;exitY=0.202;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="392" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -117,8 +114,8 @@
                         <mxPoint x="750" y="323" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="281" value="5 : yeuCauThongKeTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="300" width="150" height="20" as="geometry"/>
+                <mxCell id="281" value="2.2 : Yêu cầu thống kê Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="300" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="284" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.22;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="249" target="277" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -129,19 +126,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="285" value="6 : thongKeTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="595" y="340" width="110" height="20" as="geometry"/>
+                <mxCell id="285" value="2.3 : Thống kê Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="340" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="288" value="8 : thongTinHienThi()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="415" width="130" height="20" as="geometry"/>
+                <mxCell id="288" value="2.5 : Thông tin hiển thị" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="127" y="415" width="130" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="290" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="289" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="105" y="480" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="291" value="9 :chonCompletedTaskStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="460" width="190" height="20" as="geometry"/>
+                <mxCell id="291" value="3 :Nhấn &quot;Completed Task Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="95" y="460" width="210" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="293" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="289" target="258" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -151,14 +148,14 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="294" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;10 : truyXuatDanhSachCompletedTask()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="295" y="500" width="230" height="20" as="geometry"/>
+                <mxCell id="294" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;3.1 : Truy xuất danh sách &quot;Completed Task&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="500" width="250" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="296" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="292" target="295" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="297" value="11 : yeuCauThongKeCompletedTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="545" y="540" width="220" height="20" as="geometry"/>
+                <mxCell id="297" value="3.2 : Yêu cầu thống kê &quot;Completed Task&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="540" width="230" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="300" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.58;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -167,8 +164,8 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="302" value="12 : thongKeCompletedTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="565" y="580" width="170" height="20" as="geometry"/>
+                <mxCell id="302" value="3.3 : Thống kê &quot;Completed Task&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="580" width="190" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="387" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -190,7 +187,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="399" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;14 : thongTinHienThi()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="399" value="&lt;span style=&quot;text-align: center&quot;&gt;3.5 : Thông tin hiển thị&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="660" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="400" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
@@ -209,8 +206,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="419" value="7 : danhSachThongKeTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="325" y="380" width="170" height="20" as="geometry"/>
+                <mxCell id="419" value="2.4 : Danh sách thống kê Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="380" width="180" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="421" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.22;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -221,61 +218,61 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="306" value="15 : chonDeadlineTaskStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="700" width="190" height="20" as="geometry"/>
+                <mxCell id="306" value="4 : Nhấn &quot;Deadline Task Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="700" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="314" value="17 : yeuCauThongKeDeadlineTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="545" y="780" width="210" height="20" as="geometry"/>
+                <mxCell id="314" value="4.2 : Yêu cầu thống kê &quot;Deadline Task&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="537.5" y="780" width="220" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="318" value="18 : thongKeDeadlineTask()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="570" y="820" width="160" height="20" as="geometry"/>
+                <mxCell id="318" value="4.3 : Thống kê &quot;Deadline Task&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="557.5" y="820" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="322" value="21 : chonTagTaskStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                <mxCell id="322" value="5 : Nhấn &quot;Tag Task Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="105" y="940" width="170" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="325" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;22 : truyXuatDanhSachTagTask()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="315" y="980" width="190" height="20" as="geometry"/>
+                <mxCell id="325" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;5.1 : Truy xuất danh sách &quot;Tag Task&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="980" width="210" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="328" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;23 : yeuCauThongKeTagTask()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="555" y="1010" width="190" height="30" as="geometry"/>
+                <mxCell id="328" value="&lt;span style=&quot;text-align: center&quot;&gt;5.2 : Yêu cầu thống kê &quot;Tag Task&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="1010" width="210" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="335" value="27 : chonAchievementStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="1180" width="190" height="20" as="geometry"/>
+                <mxCell id="335" value="6 : Nhấn &quot;Achievement Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="1180" width="190" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="348" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;28 :truyXuatDanhSachAchievement()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="305" y="1220" width="210" height="20" as="geometry"/>
+                <mxCell id="348" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;6.1 : Truy xuất danh sách &quot;Achievement&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="1220" width="230" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="351" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;29 : yeuCauThongKeAchievement()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="545" y="1255" width="210" height="20" as="geometry"/>
+                <mxCell id="351" value="&lt;span&gt;6.2 : Yêu cầu thống kê &quot;Achievement&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="1255" width="220" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="355" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;30 : thongKeAchievement()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="572.5" y="1300" width="185" height="30" as="geometry"/>
+                <mxCell id="355" value="&lt;span style=&quot;text-align: center&quot;&gt;6.3 : Thống kê &quot;Achievement&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="567.5" y="1300" width="185" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="359" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22html%3D1%3Bpoints%3D%5B%5D%3Bperimeter%3DorthogonalPerimeter%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2295%22%20y%3D%221200%22%20width%3D%2210%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="167" y="1770" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="360" value="33 : chonPomodoroStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="102" y="1420" width="180" height="20" as="geometry"/>
+                <mxCell id="360" value="7 : Nhấn &quot;Pomodoro Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="1420" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="363" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;34 : truyXuatDanhSachPomodoro()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="305" y="1460" width="200" height="20" as="geometry"/>
+                <mxCell id="363" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;7.1 : Truy xuất danh sách &quot;Pomodoro&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="302.5" y="1460" width="220" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="367" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;35 : yeuCauThongKePomodoro()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="555" y="1500" width="190" height="20" as="geometry"/>
+                <mxCell id="367" value="7.2 : Yêu cầu thống kê &quot;Pomodoro&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="1500" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="371" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;36 : thongKePomodoro()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="1540" width="150" height="20" as="geometry"/>
+                <mxCell id="371" value="&lt;span&gt;7.3 : Thống kê &quot;Pomodoro&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="575" y="1540" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="375" value="39 : chonUsingAppStatistics()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="107" y="1660" width="170" height="20" as="geometry"/>
+                <mxCell id="375" value="8 : Nhấn &quot;Using App Statistics&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="105" y="1660" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="379" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;40 : truyXuatDanhSachThoiGianSuDung()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="1700" width="240" height="20" as="geometry"/>
+                <mxCell id="379" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;8.1 : Truy xuất danh sách thời gian sử dụng&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="290.63" y="1700" width="250" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="382" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;41 : yeuCauThongKeThoiGianSuDung()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                <mxCell id="382" value="8.2 : Yêu cầu thống kê thời gian sử dụng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="535" y="1740" width="230" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="402" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;20 : thongTinHienThi()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="402" value="&lt;span style=&quot;text-align: center&quot;&gt;4.5 : Thông tin hiển thị&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="130" y="900" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="403" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
@@ -285,14 +282,14 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="416" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;42 : thongKeThoiGianSuDung()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="416" value="&lt;span style=&quot;text-align: center&quot;&gt;8.3 : Thống kê thời gian sử dụng&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="560" y="1780" width="180" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="310" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;16 : truyXuatDanhSachDeadlineTask()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="740" width="220" height="20" as="geometry"/>
+                <mxCell id="310" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;4.1 : Truy xuất danh sách &quot;Deadline Task&quot;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="740" width="240" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="422" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;13 : danhSachThongKeCompletedTask()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="301.25" y="610" width="227.5" height="30" as="geometry"/>
+                <mxCell id="422" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;3.4 :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;Danh sách thống kê &quot;Completed Task&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="296.25" y="610" width="238.75" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="424" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -331,8 +328,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="432" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;19 : danhSachThongKeDeadlineTask()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="307.5" y="850" width="215" height="30" as="geometry"/>
+                <mxCell id="432" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;4.4 : Danh sách thống kê &quot;Deadline Task&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="301.25" y="850" width="228.75" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="434" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -355,8 +352,8 @@
                         <mxPoint x="766" y="1040" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="440" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;24 : thongKeTagTask()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="1060" width="170" height="30" as="geometry"/>
+                <mxCell id="440" value="&lt;span style=&quot;text-align: center&quot;&gt;5.3 : Thống kê &quot;Tag Task&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="1060" width="170" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="441" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.58;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -365,8 +362,8 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="443" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;25 : danhSachThongKeTagTask()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="317.5" y="1100" width="202.5" height="30" as="geometry"/>
+                <mxCell id="443" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;5.4 : Danh sách thống kê &quot;Tag Task&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="308.5" y="1100" width="222.5" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="445" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.22;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -377,7 +374,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="446" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;26 : thongTinHienThi()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="446" value="&lt;span style=&quot;text-align: center&quot;&gt;5.5 : Thông tin hiển thị&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="125" y="1140" width="140" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="447" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
@@ -415,8 +412,8 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="456" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;31 : danhSachThongKeAchievement()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="308.5" y="1340" width="220.5" height="30" as="geometry"/>
+                <mxCell id="456" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;6.4 : Danh sách thống kê &quot;Achievement&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="307.5" y="1340" width="220.5" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="457" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.22;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -427,8 +424,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="458" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;32 : thongTinHienThi()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="1380" width="140" height="30" as="geometry"/>
+                <mxCell id="458" value="&lt;span style=&quot;text-align: center&quot;&gt;6.5 : Thông tin hiển thị&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="1380" width="140" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="459" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -465,8 +462,8 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="467" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;37 : danhSachThongKePomodoro()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="315" y="1580" width="220.5" height="30" as="geometry"/>
+                <mxCell id="467" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;7.4 : Danh sách thống kê &quot;Pomodoro&quot;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="314.5" y="1580" width="220.5" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="468" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.22;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -477,8 +474,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="470" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;38 : thongTinHienThi()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="1620" width="140" height="30" as="geometry"/>
+                <mxCell id="470" value="&lt;span style=&quot;text-align: center&quot;&gt;7.5 : Thông tin hiển thị&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="1620" width="140" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="471" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -524,8 +521,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="480" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;43 : danhSachThongKePomodoro()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="316.5" y="1810" width="198.5" height="30" as="geometry"/>
+                <mxCell id="480" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;8.4 : Danh sách thống kê thời gian sử dụng&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="295.75" y="1820" width="233.5" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="481" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -534,8 +531,11 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="482" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;44 : thongTinHienThi()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="125" y="1850" width="140" height="30" as="geometry"/>
+                <mxCell id="482" value="&lt;span style=&quot;text-align: center&quot;&gt;8.5 : Thông tin hiển thị&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="1860" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;2.1 : Truy xuất danh sách Task&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="315.63" y="250" width="200" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
