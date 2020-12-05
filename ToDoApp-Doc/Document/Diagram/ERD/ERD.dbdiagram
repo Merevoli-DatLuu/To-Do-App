@@ -4,7 +4,8 @@ Table User{
   user_email varchar
   user_login_type int // 0: user/pass | 1 : Google acc
   user_username varchar
-  user_passhash varchar
+  user_password_hashed varchar
+  user_salt varchar
   user_token varchar
   user_created_date datetime
   region_id varchar
@@ -50,6 +51,7 @@ Table Task{
   repeater_id varchar
   task_late boolean
   task_status_id boolean
+  reminder_id varchar
 }
 
 Table Priorty{
@@ -84,8 +86,8 @@ Table Subtask {
 Table Pomodoro{
   pomodor_id varchar [pk] //PM00001
   task_id varchar
-  pomodoro_period_of_time int // Don Vi : second 
-  pomodoro_begin_time datetime
+  pomodoro_running_time int // Don Vi : minutes 
+  pomodoro_start_time datetime
 }
 
 Table NotificationUser{
@@ -95,6 +97,7 @@ Table NotificationUser{
   notification_user_name varchar
   notification_user_created_date datetime // ADD
   notification_user_is_seen boolbean // ADD
+  notification_user_is_hiden boolbean // ADD
 }
 
 
@@ -105,14 +108,15 @@ Table NotificationSetting{
 }
 
 Table NotificationType{
-  notification_type_id varchar [pk] // NA00001
+  notification_type_id varchar [pk] // NT00001
   notification_type_name varchar
 }
 
-Table NotificationSettingType{
-  notification_setting_type_id varchar [pk] // NT00001
-  notification_type_id varchar
-  notification_setting_type_name varchar
+Table NotificationSystem{
+  notification_system_id varchar [pk] //ES00001
+  notification_type_id varchar [pk]
+  notification_system_name varchar
+  notification_system_create_date datetime
 }
 
 
@@ -127,6 +131,88 @@ Table SendingEmailSettingType{
   sending_email_setting_type_name varchar
 }
 
+Table EmailContentUser{
+  email_content_user_id varchar [pk] // EC00001
+  user_id varchar
+  sending_email_setting_type_id varchar
+  email_content_system_id varchar // Nếu có thì null ở email_content_user_subject, email_content_user_body
+  email_content_user_subject varchar
+  email_content_user_body varchar
+}
+
+Table EmailContentSystem{
+  email_content_system_id varchar [pk] //ES00001
+  email_content_system_subject varchar
+  email_content_system_body longtext
+}
+
+Table Admin{
+  admin_username varchar [pk]
+  admin_password_hashed varchar
+  admin_salt varchar 
+}
+
+Table Achievement{
+  achievement_id varchar [pk]   // AC00001
+  achievement_name varchar
+  achievement_trigger varchar
+  achievement_score int 
+}
+
+Table UserAchieve{
+  achievement_id varchar [pk]
+  user_id varchar [pk]
+}
+
+Table Friend{
+  friend_id varchar [pk] //FR00001
+  user_id_1 varchar
+  user_id_2 varchar
+}
+
+Table Chart{
+  chart_id varchar [pk]
+  user_id varchar 
+}
+
+Table ChartTask{
+  charttask_id varchart [pk]
+  chart_id varchar
+  task_id varchar
+  position_x int
+  position_y int
+}
+
+Table ChartRelationship{
+  chartrelationship varchar [pk]
+  //chart_id varchar
+  charttask_id_1 varchar
+  charttask_id_2 varchar
+}
+
+table MusicGenre{
+  musicgenre_id varchar [pk]
+  musicgenre_name varchar
+}
+
+Table Music{
+  music_id varchar [pk]
+  user_id varchar 
+  music_file varchar 
+  music_name varchar
+  music_author varchar
+  musicgenre_id varchar
+  music_year int
+}
+
+Table Reminder{
+  reminder_id varchar [pk] // RP00001
+  reminder_type int 
+  reminder_period_of_time int // Don Vi : Ngay
+  repminder_point_of_time datetime
+}
+
+
 Ref: User.region_id > RegionTimezone.region_id
 Ref: Project.user_id > User.user_id
 Ref: Section.project_id > Project.project_id
@@ -134,13 +220,29 @@ Ref: Task.section_id > Section.section_id
 Ref: Task.priority_id > Priorty.priority_id
 Ref: Task.tag_id > Tag.tag_id
 Ref: Task.progress_id > Progress.progress_id
-Ref: Task.repeater_id > Repeater.repeater_id
+Ref: Task.repeater_id - Repeater.repeater_id
 Ref: Subtask.task_id > Task.task_id
 Ref: Pomodoro.task_id > Task.task_id
 Ref: NotificationUser.user_id > User.user_id
 Ref: NotificationSetting.user_id > User.user_id
-Ref: NotificationUser.notification_setting_type_id > NotificationSettingType.notification_setting_type_id
-Ref: NotificationSetting.notification_setting_type_id > NotificationSettingType.notification_setting_type_id
-Ref: NotificationSettingType.notification_type_id > NotificationType.notification_type_id
+Ref: NotificationUser.notification_setting_type_id > NotificationType.notification_type_id
+Ref: NotificationSetting.notification_setting_type_id > NotificationType.notification_type_id
 Ref: SendingEmailSetting.user_id > User.user_id
 Ref: SendingEmailSetting.sending_email_setting_type_id > SendingEmailSettingType.sending_email_setting_type_id
+Ref: EmailContentUser.user_id > User.user_id
+Ref: EmailContentUser.sending_email_setting_type_id > SendingEmailSettingType.sending_email_setting_type_id
+Ref: EmailContentUser.email_content_system_id > EmailContentSystem.email_content_system_id
+Ref: Achievement.achievement_id < UserAchieve.achievement_id
+Ref: User.user_id < UserAchieve.user_id
+Ref: User.user_id < Friend.user_id_1
+Ref: User.user_id < Friend.user_id_2
+Ref: Chart.chart_id < ChartTask.chart_id
+//Ref: Chart.chart_id < ChartRelationship.chart_id
+Ref: Chart.user_id > User.user_id
+Ref: ChartTask.task_id - Task.task_id
+Ref: ChartRelationship.charttask_id_1 > ChartTask.charttask_id
+Ref: ChartRelationship.charttask_id_2 > ChartTask.charttask_id
+Ref: Music.musicgenre_id > MusicGenre.musicgenre_id
+Ref: User.user_id < Music.user_id
+Ref: Task.reminder_id - Reminder.reminder_id
+Ref: NotificationType.notification_type_id < NotificationSystem.notification_type_id
