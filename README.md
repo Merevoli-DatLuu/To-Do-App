@@ -4,7 +4,7 @@
 
 An **beautiful** and **easy-to-use** To Do App
 
-<img src="/Review/Banner.png" width="50%">
+<img src="/Note/Banner.png" style = "border-radius: 25px;" width="50%">
 
 ![Language](https://img.shields.io/badge/Type-Document-orange.svg)
 ![Team](https://img.shields.io/badge/Team-SGU-00ffff.svg)
