@@ -13,6 +13,11 @@ An **beautiful** and **easy-to-use** To Do App
 </div>
 
 ---
+
+> "Quan trọng phải biết giải thích."\
+"Miễn có làm nhưng đừng quá bậy bạ là được."
+
+---
 <br><br>
 
 ## Thành Viên Nhóm
